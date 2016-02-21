@@ -1,0 +1,1289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hei",
+				"height"
+			],
+			[
+				"innerH",
+				"innerHeight	Window"
+			],
+			[
+				"PI",
+				"PI (num)"
+			],
+			[
+				"Plan",
+				"PlaneGeometry	(three.js)"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"onl",
+				"onload	(index.html)"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"req",
+				"requestAnimationFrame	(three.js)"
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"getelem",
+				"getElementById(${0:id})	Element"
+			],
+			[
+				"We",
+				"WebGLRenderer"
+			],
+			[
+				"WebGl",
+				"WebGLRenderer	(three.js)"
+			],
+			[
+				"rend",
+				"renderer	(three.js)"
+			],
+			[
+				"rig",
+				"rightClick"
+			],
+			[
+				"left",
+				"leftClick"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"pagen",
+				"pageNavLeftDiv	(index.css)"
+			],
+			[
+				"thre",
+				"threshold	(hammer.min.js)"
+			],
+			[
+				"swip",
+				"swiperight"
+			],
+			[
+				"sw",
+				"swipeleft"
+			],
+			[
+				"h",
+				"hammer.min.js"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"page",
+				"pageNavDiv	(index.css)"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"getau",
+				"getAuthorNameByIdCB"
+			],
+			[
+				"hide",
+				"hideWaitting"
+			],
+			[
+				"glo",
+				"globalType"
+			],
+			[
+				"listq",
+				"listQueryLimitNumber"
+			],
+			[
+				"queryR",
+				"queryReviews	(person.js)"
+			],
+			[
+				"quer",
+				"queryKey"
+			],
+			[
+				"global",
+				"globalType"
+			],
+			[
+				"on",
+				"ondblclick	Attr"
+			],
+			[
+				"list",
+				"listDataDiv"
+			],
+			[
+				"kick",
+				"kickOffEcho	(list.js)"
+			],
+			[
+				"disp",
+				"display:none"
+			],
+			[
+				"sytle",
+				"style	Attr"
+			],
+			[
+				"min",
+				"minetutor.png	w:250 h:444"
+			],
+			[
+				"mi",
+				"mineeditinfo.png	w:250 h:444"
+			],
+			[
+				"u",
+				"userperson.png	w:250 h:444"
+			],
+			[
+				"tu",
+				"tutorperson.png	w:250 h:444"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"bp",
+				"bppic/"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"dys",
+				"daysHintP"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"tarega",
+				"targetArticleId"
+			],
+			[
+				"introT",
+				"introTextP	(editinfo.js)"
+			],
+			[
+				"share",
+				"shareBtnClick	(myfollow.html)"
+			],
+			[
+				"tare",
+				"targetUid"
+			],
+			[
+				"KFo",
+				"KFollowBtnTextFollow"
+			],
+			[
+				"doCer",
+				"doCertingCB"
+			],
+			[
+				"parent",
+				"parentNode	(editinfo.js)"
+			],
+			[
+				"KDBUse",
+				"KDBUserContactType"
+			],
+			[
+				"KDBU",
+				"KDBUserIntroType"
+			],
+			[
+				"taer",
+				"targetPersonDiv"
+			],
+			[
+				"targ",
+				"targetPersonDiv"
+			],
+			[
+				"tareg",
+				"targetPersonDiv"
+			],
+			[
+				"KDBTutorC",
+				"KDBTutorCertType	(mine.js)"
+			],
+			[
+				"glob",
+				"globalUid"
+			],
+			[
+				"albu",
+				"albumDiv"
+			],
+			[
+				"intro",
+				"introTextP	(person.js)"
+			],
+			[
+				"person",
+				"personDiv"
+			],
+			[
+				"syt",
+				"style	Attr"
+			],
+			[
+				"KDB",
+				"KDBTutorInfoType"
+			],
+			[
+				"querycer",
+				"queryCertNumberUrl"
+			],
+			[
+				"gett",
+				"getCurrentTsForCacheQuery(1	(list.js)"
+			],
+			[
+				"makeQ",
+				"makeQueryUrlByTypeJsonKey	(myfollow.js)"
+			],
+			[
+				"contac",
+				"contactUrl"
+			],
+			[
+				"KDBTutor",
+				"KDBTutorTagType"
+			],
+			[
+				"profile",
+				"profileDiv"
+			],
+			[
+				"raw",
+				"rawResp"
+			],
+			[
+				"dos",
+				"doSharingCB"
+			],
+			[
+				"ppU",
+				"ppUidAndSecret"
+			],
+			[
+				"shareT",
+				"shareTargetDocIdTemp"
+			],
+			[
+				"target",
+				"targetArticleId"
+			],
+			[
+				"sharec",
+				"shareContent"
+			],
+			[
+				"targeta",
+				"targetArticleDiv"
+			],
+			[
+				"startk",
+				"startkey"
+			],
+			[
+				"quey",
+				"querySelector"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"class",
+				"class=\"profileDiv"
+			],
+			[
+				"ppu",
+				"ppUidAndSecret	(myutils.js)"
+			],
+			[
+				"gloa",
+				"globalUid"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"targetArticle",
+				"targetArticleDivs"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"targt",
+				"targetArticleId"
+			],
+			[
+				"getcoll",
+				"getCollectRecordForArticleCB"
+			],
+			[
+				"foll",
+				"followList"
+			],
+			[
+				"start",
+				"startKeyTs"
+			],
+			[
+				"star",
+				"startKeyTs"
+			],
+			[
+				"makeque",
+				"makeQueryUrlByTypeJsonKey"
+			],
+			[
+				"queryec",
+				"queryEachArticleByFollowList"
+			],
+			[
+				"readpp",
+				"readPPUidCB	(myutils.js)"
+			],
+			[
+				"add",
+				"addNewDanceTextBtn"
+			],
+			[
+				"KPassD",
+				"KPassDataMark"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"querytut",
+				"queryTutorStatByUidCB"
+			],
+			[
+				"makequery",
+				"makeQueryUrlByTypeJsonKey	(myutils.js)"
+			],
+			[
+				"show",
+				"showWaitting"
+			],
+			[
+				"json",
+				"jsondata"
+			],
+			[
+				"querys",
+				"querySelector('p	(editinfo.js)"
+			],
+			[
+				"gettutoinf",
+				"getTutorInfoDataForProfileDivByUidCB"
+			],
+			[
+				"tar",
+				"targetArticleDivName"
+			],
+			[
+				"tutorI",
+				"tutorInfoDocId"
+			],
+			[
+				"KDBT",
+				"KDBTutorInfoType"
+			],
+			[
+				"getel",
+				"getElById"
+			],
+			[
+				"queryse",
+				"querySelector('p	(editinfo.js)"
+			],
+			[
+				"new",
+				"newArticleDiv"
+			],
+			[
+				"articleDi",
+				"articleDivTemp	(list.html)"
+			],
+			[
+				"gete",
+				"getElById"
+			],
+			[
+				"art",
+				"articleDiv	(list.js)"
+			],
+			[
+				"getdat",
+				"getDataForArticleDivByIdCB"
+			],
+			[
+				"getdata",
+				"getDataForArticleDivById"
+			],
+			[
+				"listquer",
+				"listQueryViewName"
+			],
+			[
+				"KDBTut",
+				"KDBTutorTagType"
+			],
+			[
+				"KDBQuer",
+				"KDBQueryCollectViewName	(mine.js)"
+			],
+			[
+				"KDBCo",
+				"KDBCollectType	(mine.js)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 870,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/servertest.js",
+			"settings":
+			{
+				"buffer_size": 1894,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/three.js",
+			"settings":
+			{
+				"buffer_size": 811814,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"todo",
+				"TodoReview: Project and Open Files"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import  urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			" import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/pampa/work/lohogame/html5game",
+		"/Users/pampa/work/lohogame/html5game/js"
+	],
+	"file_history":
+	[
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/myswiper.html",
+		"/Users/pampa/work/lohogame/html5game/learningthree.sublime-workspace",
+		"/Users/pampa/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/pampa/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/Users/pampa/work/webgl/three.js",
+		"/Users/pampa/Downloads/pixi.js-master/bin/pixi.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/bp.html",
+		"/Users/pampa/Downloads/国产超级精品3000部/国产超级精品3000部 2/¹ú²ú³¬¼¶¾«Æ·3000²¿/¹ú²ú³¬¼¶¾«Æ·3000²¿ÖÖ×ÓÏÂÔØ.txt",
+		"/Users/pampa/work/mobilehtmlcss/hammer.min.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/myfollow.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/myfollow.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/libs/rimg.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/libs/myring.min.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/libs/rimg.min.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/mine.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/libs/blazy.min.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/remark.min.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/css/ppdancemc.css",
+		"/Users/pampa/work/ppdance/listbackup.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/textitemedit.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/selectdance.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/data.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/editinfo.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/ft.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/posting.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/myutils.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/list.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/fp.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/selectcity.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/fp.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/ft.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/editinfo.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/mine.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/tutor.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/list.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/tutor.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/css/swiper.css",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/css/myswiper.css",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/css/swiper.min.css",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/selectdance.js",
+		"/Users/pampa/work/ppdance/githubweb/query_memo.txt",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/posting.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/genderedit.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/info.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/info.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/basicinfo.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/usereditinfo.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/textitemedit.html",
+		"/Users/pampa/work/ppdance/ppdanceapi/app.js",
+		"/Users/pampa/work/ppdance/ppdanceapi/js/mydata.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/usereditinfo.js",
+		"/Users/pampa/work/ppdance/ppdanceapi/js/myapihandler.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/genderedit.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/mycollect.html",
+		"/Users/pampa/work/wetango/production/bluemix1103/public/js/myutil.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/tutoreditinfo.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/test.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/test.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/test.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/css/ppdance.css",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/userinfoedit.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mine.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/findtutor.html",
+		"/Users/pampa/Downloads/cityselect1/js/fixdiv.js",
+		"/Users/pampa/Downloads/cityselect1/js/address.js",
+		"/Users/pampa/Downloads/upyun-master/src/upyun.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/t/index.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/mycollect.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/item.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/item.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/t/login.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/css/ppdance1.css",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/mctemplate.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/index.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/share.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/mc/share.html",
+		"/Users/pampa/work/ppdance/localhtml/index.js",
+		"/Users/pampa/work/ppdance/text/sharesdk_platforms.txt",
+		"/Users/pampa/work/ppdance/text/protocols.txt",
+		"/Users/pampa/work/ppdance/localhtml/index.html",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/share/share.js",
+		"/Users/pampa/work/ppdance/githubweb/ppdance/js/utils.js",
+		"/Users/pampa/work/ppdance/localhtml/sharetowb.html",
+		"/Users/pampa/work/wetango/production/bluemix1103/public/js/myimgviewer.js",
+		"/Users/pampa/work/wetango/wetango/Podfile",
+		"/Users/pampa/work/wetango/production/bluemix1103/app.js",
+		"/Users/pampa/work/wetango/production/bluemix1103/mydata.js",
+		"/Users/pampa/work/wetango/production/bluemix1103/public/index.html",
+		"/Users/pampa/work/wetango/production/bluemix1103/public/js/mydata.js",
+		"/Users/pampa/work/wetango/production/bluemix1103/cloudant_secret_key",
+		"/Users/pampa/work/wetango/production/bluemix/app.js",
+		"/Users/pampa/work/wetango/production/bluemix/public/index.html",
+		"/Users/pampa/work/wetango/production/bluemix1103/public/imgviewer.html",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1446337950/192-168-1-101/home/pampa/bluemix/public/js/postDiv.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1446289422/192-168-1-101/home/pampa/bluemix/public/js/myapi.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1446251906/192-168-1-101/home/pampa/bluemix/myapihandler.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1446253904/192-168-1-101/home/pampa/bluemix/stormpath-client.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1446251732/192-168-1-101/home/pampa/bluemix/mydata.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1446251743/192-168-1-101/home/pampa/bluemix/myutils.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1446211104/192-168-1-101/home/pampa/bluemix/myapihandler.js",
+		"/Users/pampa/work/wetango/ssl/server.crt",
+		"/Users/pampa/Desktop/bluemix/public/bundle.js",
+		"/Users/pampa/Desktop/bluemix/public/js/myapi.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1446085211/192-168-1-101/home/pampa/bluemix/public/js/myNative.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/setProfileImgSec.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/searchSec.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/postingSec.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/settingSec.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/addingDiv.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/accountListSec.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/accountInfoSec.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/blogSec.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/workerSec.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445948771/192-168-1-101/home/pampa/bluemix/public/css/wetango.css",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/initNameSec.js",
+		"/Users/pampa/work/wetango/production/1028/bluemix/public/js/setGenderSec.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445769762/192-168-1-101/home/pampa/bluemix/stormpath-client.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445763013/192-168-1-101/home/pampa/bluemix/stormpath-client.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445582164/192-168-1-101/home/pampa/bluemix/myapihandler.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445582680/192-168-1-101/home/pampa/bluemix/app.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445586892/192-168-1-101/home/pampa/bluemix/mydata.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445560819/192-168-1-101/home/pampa/bluemix/myapihandler.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445514306/192-168-1-101/home/pampa/bluemix/public/js/regLogSec.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445513050/192-168-1-101/home/pampa/bluemix/public/js/mydata.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445516934/192-168-1-101/home/pampa/bluemix/public/js/myutil.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445512700/192-168-1-101/home/pampa/bluemix/public/index.html",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445523126/192-168-1-101/home/pampa/bluemix/public/js/myapi.js",
+		"/var/folders/_6/ms9bml597vn_cz9qr3y6hym80000gp/T/sublime-sftp-browse-1445519859/192-168-1-101/home/pampa/bluemix/public/js/settingSec.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"),\n",
+			"false",
+			"gl.",
+			"gl",
+			"3d",
+			"css3d",
+			"css",
+			"id",
+			"img",
+			"blue",
+			"Rotate",
+			"destroy",
+			"info",
+			"newArticleDiv",
+			"listQueryType",
+			"taArticlesListUrl",
+			"taArticlesPassDataUrl",
+			"targetUid",
+			"data-src",
+			"console.error",
+			"console",
+			"error",
+			"console.error",
+			"src=\"http://ppdancepic.b0.upaiyun.com/1450261738721.476074.jpg!200x200\"",
+			"http://ppdancepic.b0.upaiyun.com/1450261738721.476074.jpg!200x200",
+			"pic",
+			"echo",
+			"getTutorInfoDataForProfileDivByUid",
+			"KIconUrlSuffix",
+			"profile",
+			"pics",
+			"picsDiv",
+			"gif",
+			"logout",
+			"false",
+			"ppdance",
+			"h1",
+			"h1,h2,h3",
+			"#d7d8d2",
+			"body.remark-container",
+			"body.remark-container-webkit-print-color-adjust",
+			"body.remark-container-webkit-print-color-adjus",
+			"body.remark-container-webkit-print-color-adjust%3Aexact%3B%7",
+			"body.remark-container%7Bheight%3A100%25%3Bwidth%3A100%25%3B-webkit-print-color-adjust%3Aexact%3B%7",
+			"documentStyles%3A%22html.remark-container%2Cbody.remark-container%7Bheight%3A100%25%3Bwidth%3A100%25%3B-webkit-print-color-adjust%3Aexact%3B%7",
+			"ff6633",
+			"remark-container",
+			"share",
+			"sharebtn",
+			"share",
+			"myArticlesListUrl",
+			"myArticlesPassDataUrl",
+			"itemClickCB",
+			"profilediv",
+			"certBtnP",
+			"collectBtnP",
+			"targetArticleDivs",
+			"kapi",
+			"cert",
+			"collect",
+			"follow",
+			"certBtnClick",
+			"||",
+			"tutorPersonDiv",
+			"tutorPersonPageDivTemp",
+			"KTutorProofNumberSuffixText",
+			"articleImgClickCB",
+			"name",
+			"Name",
+			"name",
+			"personcity",
+			"edit",
+			"editDances",
+			"editCity",
+			"tutorPersonDiv",
+			"personDiv",
+			"Tutor",
+			"tutor",
+			"Tutor",
+			"var",
+			"ppUid",
+			"User",
+			"load",
+			"tutorsPageUrl",
+			"tutor",
+			"tutorsUrl",
+			"myTutorsPassDataUrl",
+			"itemClickCB",
+			"tutorcert",
+			"queryCertTutors",
+			"KCloudantQueryBasicAuth",
+			"articleImgClick",
+			"shareTargetDocIdTemp",
+			"shareTargetWhoUidTemp",
+			"shareSuccessCB",
+			"shareSuccessCB()",
+			"KApiShareUrl",
+			"share",
+			"targetdocid",
+			"globalUid",
+			"getCollectRecordForArticle",
+			"globaluid",
+			"getTutorInfoDataForProfileDivByUidCB",
+			"getCollectRecordForArticle",
+			"makearticledivby",
+			"profileDiv",
+			"name",
+			"profilediv",
+			"KApiCollectingUrl",
+			"	KApiCollectingUrl:\"collect\",\nKApiCollectingUrl",
+			"editdance",
+			"profilestatus",
+			"status",
+			"getDataForProfileDivById",
+			"read3rdName",
+			"listQueryType",
+			"queryAllOfADanceOfACity",
+			"KInfoUpdatedKeyMark",
+			"passdatamark",
+			"queryAllTutorsOfCityCB",
+			"text",
+			"textbtn",
+			"albumdiv",
+			"myCloudantAsyncGet",
+			"showaiting",
+			"getCurrentTsForCacheQuery",
+			"KDBArticleType",
+			"make a div"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"229",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/pampa/work/lohogame/html5game"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Tomorrow-Night-Bright (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/servertest.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Tomorrow-Night-Bright (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/three.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 811814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Tomorrow-Night-Bright (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 166.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 166.0
+	},
+	"output.git-init":
+	{
+		"height": 142.0
+	},
+	"output.sftp":
+	{
+		"height": 190.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 88.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
