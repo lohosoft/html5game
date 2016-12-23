@@ -7,7 +7,7 @@ THREE.MyUtils = {
     }
 };
 
-
+var rootPath = "http://www.lohosoft.com/vrmaze/";
 // global variables
 var renderer;
 var scene;
@@ -18,6 +18,7 @@ var cube;
 var touch; // detect if user touch the screen
 var cubeStartPoint = new THREE.Vector3(width / 2 - 3, 1, width / 2 - 3);
 var collidableMeshList = [];
+
 
 var width = 100;
 
@@ -60,7 +61,7 @@ function setRenderer() {
 function setFloor() {
     var planeGeometry = new THREE.PlaneGeometry(width, width, 40, 40);
     var planeMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
-    planeMaterial.map = THREE.ImageUtils.loadTexture("../vrmaze/assets/textures/wood_1-240x240.png");
+    planeMaterial.map = THREE.ImageUtils.loadTexture(rootPath + "/assets/textures/wood_1-240x240.png");
     planeMaterial.map.wrapS = planeMaterial.map.wrapT = THREE.RepeatWrapping;
     planeMaterial.map.repeat.set(1, 1);
     var plane = new THREE.Mesh(planeGeometry, planeMaterial);
