@@ -1,13 +1,3 @@
-// add my utils to three version 67
-THREE.MyUtils = {
-    cameraLookDir: function(camera) {
-        var vector = new THREE.Vector3(0, 0, -1);
-        vector.applyEuler(camera.rotation, camera.eulerOrder);
-        return vector;
-    }
-};
-
-
 // global variables
 var renderer;
 var scene;
@@ -15,27 +5,22 @@ var camera;
 var control;
 var stats;
 var cube;
-var touch; // detect if user touch the screen
-var cubeStartPoint = new THREE.Vector3(width / 2 - 3, 1, width / 2 - 3);
+
+
+
 var collidableMeshList = [];
 
 var width = 100;
 
-var speed = 1.0; //  camera and cube moving speed factor
-var stepForCheckCollide = 0.01;
-var screenLog = document.getElementById('screenLog');
-
-var collided = false; // check if cube and camera collide with wall
-
 function createCube() {
 
-    var cubeGeometry = new THREE.BoxGeometry(3, 8, 3);
+    var cubeGeometry = new THREE.BoxGeometry(2, 2, 2);
     // TODO set invisible in production as camera collide 
     var cubeMaterial = new THREE.MeshBasicMaterial({ color: 0x0000ff, transparent: false, opacity: 1 });
-    cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
+    var cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
     cube.castShadow = true;
     cube.name = 'cube';
-    cube.position = cubeStartPoint.clone();
+    cube.position = new THREE.Vector3(width / 2 - 3, 1, width / 2 - 3);
     scene.add(cube);
 
 }
@@ -95,29 +80,12 @@ function setCamera() {
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
 
     // position and point the camera to the center of the scene
-    camera.position = cube.position;
+    camera.position.x = 70;
+    camera.position.y = 10;
+    camera.position.z = 130;
     camera.lookAt(new THREE.Vector3(10, 0, 35));
-    // TODO observer camera
-    // control = new THREE.OrbitControls(camera);
-    control = new THREE.DeviceOrientationControls(camera);
+    control = new THREE.OrbitControls(camera);
 
-};
-
-
-function handleTouch() {
-    // let cube to tesk if hit with walls
-    // if not , move camera 
-    // if hit , camera don't move , cube position will sync with camera again
-    var cameraLookDir = THREE.MyUtils.cameraLookDir(camera);
-    cube.position.x += cameraLookDir.x * speed;
-    cube.position.z += cameraLookDir.z * speed;
-
-    // detectCollision();
-    if (detectCollision()) {
-        alert("撞到墙了！重新开始！");
-        cube.position = cubeStartPoint.clone();
-    }
-    camera.position = cube.position;
 
 };
 /**
@@ -153,12 +121,6 @@ function init() {
 
     // call the render function, after the first render, interval is determined
     // by requestAnimationFrame
-
-    document.body.addEventListener('touchstart', function(e) {
-        handleTouch();
-    }, false);
-
-
     render();
 }
 
@@ -181,15 +143,13 @@ function addStatsObject() {
  */
 function render() {
 
-    // sync camera with cube position
-    // cube.position = camera.position;
     // update stats
     stats.update();
 
     // and render the scene
     renderer.render(scene, camera);
 
-    // handle touch
+
     // detectCollision();
 
     control.update();
@@ -198,39 +158,42 @@ function render() {
     requestAnimationFrame(render);
 }
 
-function detectCollision() {
-    // collision detection:
-    //   determines if any of the rays from the cube's origin to each vertex
-    //      intersects any face of a mesh in the array of target meshes
-    //   for increased collision accuracy, add more vertices to the cube;
-    //      for example, new THREE.BoxGeometry( 64, 64, 64, 8, 8, 8, wireMaterial )
-    //   HOWEVER: when the origin of the ray is within the target mesh, collisions do not occur
-    var cube = scene.getObjectByName('cube');
-    var originPoint = cube.position.clone();
+// function detectCollision() {
+//     // collision detection:
+//     //   determines if any of the rays from the cube's origin to each vertex
+//     //      intersects any face of a mesh in the array of target meshes
+//     //   for increased collision accuracy, add more vertices to the cube;
+//     //      for example, new THREE.BoxGeometry( 64, 64, 64, 8, 8, 8, wireMaterial )
+//     //   HOWEVER: when the origin of the ray is within the target mesh, collisions do not occur
+//     var cube = scene.getObjectByName('cube');
+//     var originPoint = cube.position.clone();
 
 
-    for (var vertexIndex = 0; vertexIndex < cube.geometry.vertices.length; vertexIndex++) {
-        var localVertex = cube.geometry.vertices[vertexIndex].clone();
-        var globalVertex = localVertex.applyMatrix4(cube.matrix);
-        var directionVector = globalVertex.sub(cube.position);
+//     for (var vertexIndex = 0; vertexIndex < cube.geometry.vertices.length; vertexIndex++) {
+//         var localVertex = cube.geometry.vertices[vertexIndex].clone();
+//         var globalVertex = localVertex.applyMatrix4(cube.matrix);
+//         var directionVector = globalVertex.sub(cube.position);
 
-        var ray = new THREE.Raycaster(originPoint, directionVector.clone().normalize());
-        var collisionResults = ray.intersectObjects(collidableMeshList);
+//         var ray = new THREE.Raycaster(originPoint, directionVector.clone().normalize());
+//         var collisionResults = ray.intersectObjects(collidableMeshList);
 
-        if (collisionResults.length > 0 && collisionResults[0].distance < directionVector.length()) {
+//         if (collisionResults.length > 0 && collisionResults[0].distance < directionVector.length()) {
 
-            // if we've got a hit, we just stop the current walk and reset to base point
-            // collided = true;
-            // console.log('collided is ' + collided);
-            return true;
-        } else {
-            // collided = false;
-            // console.log('collided is ' + collided);
-            return false;
+//             // if we've got a hit, we just stop the current walk and reset to base point
+//             var tweens = TWEEN.getAll();
 
-        }
-    }
-}
+//             if (tweens.length > 0) {
+
+//                 tweens[0].stop();
+//                 TWEEN.removeAll();
+//                 isTweening = false;
+
+//                 scene.remove(cube);
+//                 cube = createCube();
+//             }
+//         }
+//     }
+// }
 
 
 
