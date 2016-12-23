@@ -61,7 +61,9 @@ function setRenderer() {
 function setFloor() {
     var planeGeometry = new THREE.PlaneGeometry(width, width, 40, 40);
     var planeMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
-    planeMaterial.map = THREE.ImageUtils.loadTexture(rootPath + "/assets/textures/wood_1-240x240.png");
+    var texturePath = rootPath + "assets/textures/wood_1-240x240.png";
+    console.log(texturePath);
+    planeMaterial.map = THREE.ImageUtils.loadTexture(texturePath);
     planeMaterial.map.wrapS = planeMaterial.map.wrapT = THREE.RepeatWrapping;
     planeMaterial.map.repeat.set(1, 1);
     var plane = new THREE.Mesh(planeGeometry, planeMaterial);
