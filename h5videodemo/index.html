@@ -1,1 +1,103 @@
-<!DOCTYPE html><html><head> <title>h5 video demo</title> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <style type="text/css"> html, body{position: absolute; background-color: gray; width: 100%; height: 100%; margin: 0; border: 0; overflow: hidden;}.myivwrapper{height: 100%; display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; display: flex; display: -webkit-flex; flex-direction: column; /*flex-direction: row;*/ -webkit-flex-direction: column; -webkit-justify-content: center; justify-content: center; -webkit-align-items: stretch; align-items: stretch; /*align-items: center;*/ /*position: absolute;*/ /* position: fixed; background-color: red; width: 100%; height: 100%; margin: 0; border: 0; overflow: hidden;*/ /*transform-origin: 50% 50%;*/}/* .myrotate90p{-webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}.myrotate90n{-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg);}*/ .myrotate90negative{-webkit-transform: rotate(90deg); -webkit-transform-origin: top left; -ms-transform: rotate(90deg); -ms-transform-origin: top left; transform: rotate(90deg); transform-origin: top left; position: absolute; top: 0; left: 100vw; width: 100vh; height: 100vw;}#progressP{color: green; margin-left: 50%; margin-top: 100px; font-size: 18px;}</style> <script type="text/javascript">var globalData={}; // globalData.inited=true; </script> <script type="text/javascript" src="./preload.min.js"></script></head><body> <p id="progressP"></p><div class="myivwrapper" id="myivwrapper"> </div><script type="text/javascript" src="./index.min.js"></script> <script type="text/javascript" src="flexibility.min.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>h5 video demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <style type="text/css">
+    html,
+    body {
+        position: absolute;
+        background-color: gray;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border: 0;
+        overflow: hidden;
+    }
+
+    .myivwrapper {
+        height: 100%;
+        display: -webkit-box;
+        /* OLD - iOS 6-, Safari 3.1-6 */
+        display: -moz-box;
+        /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -ms-flexbox;
+        /* TWEENER - IE 10 */
+        display: -webkit-flex;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        /*flex-direction: row;*/
+        -webkit-flex-direction: column;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: stretch;
+        align-items: stretch;
+        /*align-items: center;*/
+        /*position: absolute;*/
+        /*        position: fixed;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border: 0;
+        overflow: hidden;*/
+        /*transform-origin: 50% 50%;*/
+    }
+    /*    .myrotate90p {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .myrotate90n {
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+*/
+
+    .myrotate90negative {
+        -webkit-transform: rotate(90deg);
+        -webkit-transform-origin: top left;
+        -ms-transform: rotate(90deg);
+        -ms-transform-origin: top left;
+        transform: rotate(90deg);
+        transform-origin: top left;
+        position: absolute;
+        top: 0;
+        left: 100vw;
+        width: 100vh;
+        height: 100vw;
+    }
+    #progressP{
+        color: green;
+        margin-left: 50%;
+        margin-top: 100px;
+        font-size: 18px;
+    }
+    </style>
+    <script type="text/javascript">
+    var globalData = {};
+    // globalData.inited = true;
+    </script>
+    <script type="text/javascript" src="./preload.min.js"></script>
+</head>
+
+<body>
+    <!-- <p id="progressP"></p> -->
+    <div class="myivwrapper" id="myivwrapper">
+        <!-- <video id="video" muted auto src="http://192.168.1.109:8080/h5videostart/assets/s.mp4" playsinline="true" -webkit-playsinline="true" x5-video-player-type="h5" x5-video-player-fullscreen="true" type="video/mp4"></video> -->
+        <!-- <video id="video" muted auto src="http://192.168.1.109:8080/h5videostart/assets/s.mp4" playsinline="true" -webkit-playsinline="true" type="video/mp4"></video> -->
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="flexibility.min.js"></script>
+</body>
+
+</html>
